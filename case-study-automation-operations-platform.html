@@ -1,0 +1,62 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Case study: Automation Operations Platform by Ben Tartaglia."><title>Automation Operations Platform | Ben Tartaglia</title><link rel="stylesheet" href="styles.css"></head><body>
+<header class="site-header"><div class="wrap nav"><a class="brand" href="index.html">Ben Tartaglia</a><nav><a href="professional.html">Professional</a><a href="case-studies.html">Case Studies</a><a href="lab.html">Technology Lab</a><a href="research.html">Research</a><a href="writing.html">Writing</a><a href="about.html">About</a></nav></div></header>
+<main>
+<section class="page-hero"><div class="wrap"><p class="eyebrow">Case Study · Automation / Platform Engineering</p><h1>Automation Operations Platform</h1><p class="lede">A public reference implementation for reliable API- and webhook-driven workflows, built to demonstrate how automation can be engineered for failure, recovery, observability, and human oversight instead of treated as a collection of scripts.</p><div class="actions"><a class="button primary" href="https://github.com/bentag1965/automation-operations-platform">View Repository</a><a class="button" href="lab.html">Technology Lab</a></div></div></section>
+
+<section class="section"><div class="wrap"><div class="case-meta">
+<div><span>Type</span><strong>Public Reference Architecture</strong></div>
+<div><span>Runtime</span><strong>TypeScript · Node · PostgreSQL</strong></div>
+<div><span>Operations</span><strong>Queueing · Retries · Approvals · Audit</strong></div>
+<div><span>Deployment</span><strong>Docker · GitHub Actions · Terraform</strong></div>
+</div></div></section>
+
+<section class="section alt"><div class="wrap split">
+<div><p class="section-label">The Problem</p><h2>Automation often works right up until something goes wrong.</h2></div>
+<div class="wide-copy"><p>Many workflow systems begin as useful scripts or low-code automations and then quietly become business-critical. At that point duplicate events, transient API failures, partial execution, unclear workflow state, missing audit history, and risky actions without review become operational problems.</p><p>The goal of this project was to model a more durable pattern: accept work safely, make state explicit, isolate external integrations, recover from transient failures, pause for human approval when needed, and preserve enough evidence to reconstruct what happened later.</p></div>
+</div></section>
+
+<section class="section"><div class="wrap"><p class="section-label">Architecture</p><h2>Make reliability visible in the design.</h2><div class="grid three">
+<article class="card"><h3>Idempotent Ingress</h3><p>Inbound webhooks are validated, normalized, and associated with an idempotency key so repeated delivery does not create duplicate work.</p></article>
+<article class="card"><h3>Explicit Workflow State</h3><p>Progress moves through persisted states such as received, validated, queued, processing, awaiting approval, succeeded, retry scheduled, failed, and dead letter.</p></article>
+<article class="card"><h3>Queue-Based Dispatch</h3><p>Work is separated from request ingestion so execution can be retried, observed, and scaled independently rather than relying on one synchronous request path.</p></article>
+<article class="card"><h3>Human Approval Gates</h3><p>High-risk actions can enter an explicit approval state instead of relying on informal email or chat approval outside the workflow record.</p></article>
+<article class="card"><h3>Adapter Isolation</h3><p>Provider-specific APIs live behind adapters, reducing coupling between business workflow logic and external service behavior.</p></article>
+<article class="card"><h3>Audit and Dead Letter</h3><p>Meaningful transitions are recorded, while unrecoverable work is moved into a dead-letter path instead of disappearing into logs.</p></article>
+</div></div></section>
+
+<section class="section alt"><div class="wrap"><p class="section-label">Reliability Engineering</p><h2>Failure is part of the workflow model.</h2><div class="grid two">
+<article class="card"><h3>Selective Retry and Backoff</h3><p>Transient failures can be retried with bounded backoff, while validation and permanent business-rule failures are treated differently. Retrying everything blindly simply turns failures into noise.</p></article>
+<article class="card"><h3>Duplicate Delivery</h3><p>The local demo has been exercised through duplicate and idempotent delivery so repeated external events return existing workflow results instead of creating parallel execution.</p></article>
+<article class="card"><h3>Approval and Recovery Paths</h3><p>The runtime has been tested through human approval, transient retry, dead-letter handling, and audit-history flows rather than only a successful happy path.</p></article>
+<article class="card"><h3>Operational Runbooks</h3><p>The repository includes reliability and recovery documentation, an incident runbook, an example incident scenario, a simulated postmortem, and repeatable incident drills.</p></article>
+</div></div></section>
+
+<section class="section"><div class="wrap split">
+<div><p class="section-label">Observability</p><h2>A workflow is not operational if nobody can see what it is doing.</h2></div>
+<div class="wide-copy"><p>The reference stack exposes workflow metrics through Prometheus and includes a provisioned Grafana dashboard covering workflow totals, success and dead-letter counts, retries, queue depth, approval wait, adapter latency, and success ratio.</p><p>The repository also includes alert rules around backlog, queue age, retries, dead letters, and success ratio so observability is treated as part of the operating model rather than a screenshot added at the end.</p></div>
+</div></section>
+
+<section class="section alt"><div class="wrap"><p class="section-label">Production-Minded Delivery</p><div class="grid three">
+<article class="card"><h3>Container Hardening</h3><p>The production-style Docker path uses multi-stage builds, compiled JavaScript, non-root application containers, health checks, restart policies, externalized credentials, read-only application filesystems, and reduced Linux capabilities.</p></article>
+<article class="card"><h3>Continuous Validation</h3><p>GitHub Actions validates builds, runs tests, builds the container image, and checks the production Compose configuration on relevant pushes and pull requests.</p></article>
+<article class="card"><h3>Infrastructure as Code</h3><p>A reference AWS Terraform deployment maps the application into VPC/subnet design, ECS/Fargate services, RDS PostgreSQL, ECR, an Application Load Balancer, CloudWatch, Secrets Manager, and a migration task.</p></article>
+</div></div></section>
+
+<section class="section"><div class="wrap split">
+<div><p class="section-label">Why I Built It</p><h2>To connect operations leadership with hands-on systems thinking.</h2></div>
+<div class="wide-copy"><p>This project is deliberately public and portfolio-safe. It contains no production credentials, customer data, proprietary business logic, private webhook URLs, or commercial workflow configuration.</p><p>What it does expose is the architecture and reasoning: how I think about duplicate work, workflow state, approvals, retry policy, observability, containerization, deployment, incident handling, and the operational consequences of design choices.</p></div>
+</div></section>
+
+<section class="section alt"><div class="wrap split">
+<div><p class="section-label">Operating Principle</p><h2>Automation should reduce operational risk, not hide it.</h2></div>
+<div class="wide-copy"><p>A fast automation that cannot explain its state, recover safely, prevent duplication, or show who approved a risky action eventually becomes another source of incidents.</p><p>The platform is a working demonstration of the opposite approach: automation as an operational system with explicit state, guardrails, recovery paths, and evidence.</p></div>
+</div></section>
+
+<section class="section"><div class="wrap"><p class="section-label">Explore the Work</p><div class="grid three">
+<article class="card"><h3>Repository</h3><p>Source, architecture, examples, runtime guidance, and project documentation.</p><a class="text-link" href="https://github.com/bentag1965/automation-operations-platform">Open GitHub →</a></article>
+<article class="card"><h3>Technology Lab</h3><p>See this project in the context of the broader technical portfolio.</p><a class="text-link" href="lab.html">Enter the lab →</a></article>
+<article class="card"><h3>IoT & Edge Operations</h3><p>See how the same operational thinking applies to connected systems and field technology.</p><a class="text-link" href="case-study-iot-edge-operations.html">Read case study →</a></article>
+</div></div></section>
+</main>
+<footer><div class="wrap footer-grid"><span>© 2026 Ben Tartaglia</span><div><a href="case-studies.html">All Case Studies</a><a href="https://github.com/bentag1965">GitHub</a></div></div></footer>
+</body></html>
