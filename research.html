@@ -1,9 +1,41 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Technical research by Ben Tartaglia."><title>Research | Ben Tartaglia</title><link rel="stylesheet" href="styles.css"></head><body>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Technical research by Ben Tartaglia across AI systems, infrastructure, automation, IoT/edge, security, and reliability."><title>Research | Ben Tartaglia</title><link rel="stylesheet" href="styles.css"></head><body>
 <header class="site-header"><div class="wrap nav"><a class="brand" href="index.html">Ben Tartaglia</a><nav><a href="professional.html">Professional</a><a href="case-studies.html">Case Studies</a><a href="lab.html">Technology Lab</a><a href="research.html">Research</a><a href="writing.html">Writing</a><a href="about.html">About</a></nav></div></header>
-<main><section class="page-hero"><div class="wrap"><p class="eyebrow">Research</p><h1>Research built around testing, evidence, and operational relevance.</h1><p class="lede">A place for structured investigations into AI systems, infrastructure, automation, IoT/edge computing, security, reliability, and emerging technology.</p></div></section>
-<section class="section"><div class="wrap"><div class="grid three">
-<article class="card"><h3>AI Systems</h3><p>Model behavior, workflow integration, operational use cases, evaluation methods, and the gap between demonstrations and dependable systems.</p></article>
-<article class="card"><h3>Infrastructure & Reliability</h3><p>Patterns in distributed operations, service resilience, automation, systems management, and the operational costs of complexity.</p></article>
-<article class="card"><h3>IoT & Edge</h3><p>Connectivity, device lifecycle, field constraints, local processing, telemetry, and operational design for connected environments.</p></article>
-</div><p class="wide-copy research-note">Research entries will distinguish observation, methodology, interpretation, and conclusion so exploratory work does not masquerade as certainty.</p></div></section>
-</main><footer><div class="wrap footer-grid"><span>© 2026 Ben Tartaglia</span><div><a href="https://github.com/bentag1965">GitHub</a><a href="about.html">Contact</a></div></div></footer></body></html>
+<main>
+<section class="page-hero"><div class="wrap"><p class="eyebrow">Research</p><h1>Technical research with an operator’s bias toward evidence.</h1><p class="lede">This section is for structured investigation—not hot takes. The goal is to separate observation, testing, interpretation, and conclusion so ideas can mature without pretending uncertainty does not exist.</p></div></section>
+
+<section class="section"><div class="wrap"><p class="section-label">Research Method</p><h2>A simple discipline: define the question, preserve the evidence, and make the assumptions visible.</h2>
+<div class="grid four">
+<article class="card"><h3>1. Question</h3><p>Start with a specific technical or operational question instead of a predetermined conclusion.</p></article>
+<article class="card"><h3>2. Method</h3><p>Document the environment, test conditions, data sources, assumptions, controls, and limitations.</p></article>
+<article class="card"><h3>3. Evidence</h3><p>Preserve observations, outputs, logs, measurements, version information, and enough context to revisit the result later.</p></article>
+<article class="card"><h3>4. Interpretation</h3><p>Separate what was observed from what is inferred, and note where stronger evidence would change the conclusion.</p></article>
+</div></div></section>
+
+<section class="section alt"><div class="wrap"><p class="section-label">Active Research Tracks</p><div class="grid three">
+<article class="card research-card"><p class="section-label">AI Systems</p><h3>Longitudinal Model Behavior</h3><p>How model outputs change across providers, repeated samples, prompt versions, model revisions, and time.</p><p class="project-proof">Current work: provider normalization, provenance, evaluator separation, structured output validation, cost and token accounting.</p><a class="text-link" href="https://github.com/bentag1965/ai-model-longitudinal-lab">Open reference implementation →</a></article>
+
+<article class="card research-card"><p class="section-label">AI Operations</p><h3>Reliable AI-Enabled Workflows</h3><p>What changes when LLMs move from ad hoc assistance into repeatable operational workflows with approvals, auditability, failure recovery, and measurable service behavior.</p><p class="project-proof">Focus: human-in-the-loop controls, evidence capture, retries, idempotency, observability, governance.</p><a class="text-link" href="case-study-automation-operations-platform.html">Related platform case study →</a></article>
+
+<article class="card research-card"><p class="section-label">Infrastructure</p><h3>Operational Reliability in Distributed Environments</h3><p>How documentation quality, escalation inputs, standardization, identity, observability, and automation affect service reliability across many locations.</p><p class="project-proof">Focus: recurring failure patterns, deployment variance, support-system design, operational handoff.</p><a class="text-link" href="case-study-distributed-infrastructure.html">Related case study →</a></article>
+
+<article class="card research-card"><p class="section-label">IoT / Edge</p><h3>Resilient Connected Systems</h3><p>How edge systems behave under imperfect connectivity, noisy radio observations, power interruption, intermittent backhaul, and field-support constraints.</p><p class="project-proof">Focus: BLE/RFID/NFC, deduplication, buffering, store-and-forward, device identity, connectivity failover.</p><a class="text-link" href="https://github.com/bentag1965/iot-edge-reference-architecture">Open reference architecture →</a></article>
+
+<article class="card research-card"><p class="section-label">Identity / Security</p><h3>Identity as an Operational Control Plane</h3><p>How lifecycle automation, privileged access, Conditional Access, emergency access, workload identity governance, and auditability shape enterprise risk.</p><p class="project-proof">Focus: Entra ID, RBAC, PIM concepts, least privilege, workload identities, identity incident response.</p><a class="text-link" href="https://github.com/bentag1965/enterprise-identity-reference-architecture">Open reference architecture →</a></article>
+
+<article class="card research-card"><p class="section-label">Defensive Security</p><h3>Email Authentication and Domain Posture</h3><p>How SPF, DKIM, DMARC, MX configuration, transport security, and DNS design contribute to practical email security posture.</p><p class="project-proof">Focus: passive assessment, evidence-based findings, remediation guidance, false confidence from partial controls.</p><a class="text-link" href="https://github.com/bentag1965/email-domain-security-audit">Open security tool →</a></article>
+</div></div></section>
+
+<section class="section"><div class="wrap split">
+<div><p class="section-label">Research Standard</p><h2>Exploration is allowed to be incomplete. Claims are not.</h2></div>
+<div class="wide-copy"><p>Research notes on this site will identify whether something is a hypothesis, observation, working interpretation, or supported conclusion. Where results depend on a specific model version, configuration, environment, data set, or test window, that context should travel with the result.</p><p>I am less interested in being first to a conclusion than in being able to explain why I reached it—and what would make me revise it.</p></div>
+</div></section>
+
+<section class="section alt"><div class="wrap"><p class="section-label">Publication Pattern</p><h2>Three layers, depending on maturity.</h2><div class="grid three">
+<article class="card"><h3>Research Notes</h3><p>Early observations, test designs, questions, unexpected results, and methodological decisions. Useful but explicitly provisional.</p></article>
+<article class="card"><h3>Technical Briefs</h3><p>More structured findings with methodology, evidence, limitations, interpretation, and practical implications.</p></article>
+<article class="card"><h3>Reference Implementations</h3><p>Public code or architecture showing how a finding, pattern, or operating principle can be translated into a working system.</p></article>
+</div></div></section>
+
+<section class="section"><div class="wrap split"><div><p class="section-label">Boundary</p><h2>Curiosity without leaking somebody else’s system.</h2></div><div class="wide-copy"><p>Research published here is based on public information, personal experimentation, sanitized reference architectures, and generalized technical patterns. Employer, customer, tenant, credential, device, and proprietary data stay out of the public research layer.</p></div></div></section>
+</main>
+<footer><div class="wrap footer-grid"><span>© 2026 Ben Tartaglia</span><div><a href="lab.html">Technology Lab</a><a href="https://github.com/bentag1965">GitHub</a></div></div></footer></body></html>
