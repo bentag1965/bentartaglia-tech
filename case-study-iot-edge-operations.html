@@ -1,0 +1,65 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Case study: IoT and edge operations by Ben Tartaglia."><title>IoT & Edge Operations | Ben Tartaglia</title><link rel="stylesheet" href="styles.css"></head><body>
+<header class="site-header"><div class="wrap nav"><a class="brand" href="index.html">Ben Tartaglia</a><nav><a href="professional.html">Professional</a><a href="case-studies.html">Case Studies</a><a href="lab.html">Technology Lab</a><a href="research.html">Research</a><a href="writing.html">Writing</a><a href="about.html">About</a></nav></div></header>
+<main>
+<section class="page-hero"><div class="wrap"><p class="eyebrow">Case Study · IoT / Edge</p><h1>Building Structure Around Connected Systems</h1><p class="lede">The hard part of IoT is rarely getting one device to work on a bench. The real challenge is making connected systems supportable across hardware, firmware, connectivity, field conditions, vendors, and handoff.</p></div></section>
+
+<section class="section"><div class="wrap">
+<div class="case-meta">
+<div><span>Environment</span><strong>IoT / Edge / Field Operations</strong></div>
+<div><span>Focus</span><strong>Lifecycle · Connectivity · Testing</strong></div>
+<div><span>Operating Model</span><strong>Documentation · Vendors · Handoff</strong></div>
+<div><span>Examples</span><strong>BLE · UHF · Edge · Remote Connectivity</strong></div>
+</div>
+</div></section>
+
+<section class="section alt"><div class="wrap split">
+<div><p class="section-label">The Situation</p><h2>Connected systems were growing faster than the operating model around them.</h2></div>
+<div class="wide-copy">
+<p>The environment included customized devices, field deployments, wireless connectivity, edge components, vendor dependencies, and hardware changes that needed to move from prototype behavior into something operations could actually support.</p>
+<p>Documentation was incomplete. Device variants, firmware considerations, bills of materials, test methods, and support knowledge were not always consolidated. That made troubleshooting slower and increased the risk that important information lived only in individual memory or vendor conversations.</p>
+</div></div></section>
+
+<section class="section"><div class="wrap"><p class="section-label">What Needed Improvement</p><div class="grid three">
+<article class="card"><h3>Lifecycle Visibility</h3><p>Teams needed a clearer picture of device versions, components, firmware/configuration differences, support status, and what changed between one field unit and another.</p></article>
+<article class="card"><h3>Repeatable Testing</h3><p>Prototypes and field changes needed test criteria that could be repeated, documented, and compared rather than judged only by whether a single demonstration appeared to work.</p></article>
+<article class="card"><h3>Operational Handoff</h3><p>Engineering, vendors, field teams, and support needed a shared path from concept to deployment so the final system did not become an orphaned technical experiment.</p></article>
+</div></div></section>
+
+<section class="section alt"><div class="wrap"><p class="section-label">Approach</p><h2>Treat the device as one part of a larger operating system.</h2>
+<div class="grid two">
+<article class="card"><h3>1. Build the System Map</h3><p>I worked to connect the pieces that are often treated separately: hardware, firmware/configuration, power, connectivity, cloud or edge dependencies, field installation, support ownership, and vendor responsibility. The goal was to make the real system visible.</p></article>
+<article class="card"><h3>2. Make Testing Explicit</h3><p>For wireless and hardware concepts, I focused on measurable behavior rather than demo success. That included signal thresholds, connection paths, power behavior, environmental constraints, and what should count as pass/fail under realistic field conditions.</p></article>
+<article class="card"><h3>3. Design for Field Constraints</h3><p>Connectivity plans considered locations where normal infrastructure might not yet exist or might be unreliable. That pushed the design toward practical combinations of cellular, Wi-Fi, satellite, local edge processing, and independent power rather than assuming a perfect site.</p></article>
+<article class="card"><h3>4. Improve Handoff and Ownership</h3><p>I pushed documentation, test notes, vendor decisions, and support knowledge toward a form that another person could actually use. The objective was to reduce hidden dependency on a single engineer, vendor contact, or undocumented configuration.</p></article>
+</div></div></section>
+
+<section class="section"><div class="wrap"><p class="section-label">Representative Work</p><div class="grid three">
+<article class="card"><h3>BLE Presence / Muster Concepts</h3><p>Evaluated beacon-based presence concepts using multiple BLE beacons, Wi-Fi connectivity, edge processing, and signal-strength thresholds to reason about whether a person or asset was truly present in a defined area.</p></article>
+<article class="card"><h3>UHF and Identification Testing</h3><p>Explored UHF-based identification and related gating concepts where the technical question was not simply “can it read?” but whether the read behavior was reliable enough for a real operational workflow.</p></article>
+<article class="card"><h3>Day-One Connectivity</h3><p>Worked through connectivity concepts combining satellite service, independent power, and edge/network equipment to support sites before conventional infrastructure was fully available.</p></article>
+<article class="card"><h3>Power Continuity</h3><p>Evaluated local backup-power concepts for connected devices where short interruptions could create avoidable outages, resets, or support events.</p></article>
+<article class="card"><h3>Device State / Check-Out Logic</h3><p>Explored ways to determine whether devices were still physically present, checked out, or moved between expected areas using wireless signals and identity controls.</p></article>
+<article class="card"><h3>Hardware / Field Changes</h3><p>Supported testing and operational thinking around physical hardware changes where electrical behavior, installation realities, documentation, and field support all had to converge.</p></article>
+</div></div></section>
+
+<section class="section alt"><div class="wrap split">
+<div><p class="section-label">Operating Principle</p><h2>Prototype success is not operational success.</h2></div>
+<div class="wide-copy">
+<p>A connected-device project becomes real only when someone other than the original builder can deploy it, observe it, troubleshoot it, replace it, and understand what version they are dealing with.</p>
+<p>That means lifecycle records, configuration visibility, support ownership, test criteria, and field documentation are not administrative overhead. They are part of the product.</p>
+</div></div></section>
+
+<section class="section"><div class="wrap split">
+<div><p class="section-label">What I’d Carry Forward</p><h2>Start the operating model at the same time as the prototype.</h2></div>
+<div class="wide-copy">
+<p>I would establish the device registry, firmware/configuration map, bill of materials, test template, deployment checklist, and ownership matrix at the beginning of the project—not after the prototype proves interesting.</p>
+<p>That shift turns IoT from a sequence of clever experiments into a manageable technology platform. It also creates a cleaner foundation for telemetry, automation, fleet management, security, and future AI-assisted operations.</p>
+</div></div></section>
+
+<section class="section alt"><div class="wrap"><p class="section-label">Related Work</p><div class="grid two">
+<article class="card"><h3>Technology Lab</h3><p>Current technical projects and experiments across automation, infrastructure, IoT, security, and AI systems.</p><a class="text-link" href="lab.html">Enter the lab →</a></article>
+<article class="card"><h3>Distributed Infrastructure at Scale</h3><p>See how the same emphasis on repeatability and operational structure applies to enterprise infrastructure.</p><a class="text-link" href="case-study-distributed-infrastructure.html">Read case study →</a></article>
+</div></div></section>
+</main>
+<footer><div class="wrap footer-grid"><span>© 2026 Ben Tartaglia</span><div><a href="case-studies.html">All Case Studies</a><a href="https://github.com/bentag1965">GitHub</a></div></div></footer>
+</body></html>
