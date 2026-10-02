@@ -1,67 +1,78 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Case study: distributed enterprise infrastructure and operations at scale by Ben Tartaglia."><title>Distributed Infrastructure at Scale | Ben Tartaglia</title><link rel="stylesheet" href="styles.css"></head><body>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Case study: enterprise infrastructure and distributed IT operations at scale by Ben Tartaglia."><title>Enterprise Infrastructure at Scale | Ben Tartaglia</title><link rel="stylesheet" href="styles.css"></head><body>
 <header class="site-header"><div class="wrap nav"><a class="brand" href="index.html">Ben Tartaglia</a><nav><a href="professional.html">Professional</a><a href="case-studies.html">Case Studies</a><a href="lab.html">Technology Lab</a><a href="research.html">Research</a><a href="writing.html">Writing</a><a href="about.html">About</a></nav></div></header>
 <main>
-<section class="page-hero"><div class="wrap"><p class="eyebrow">Case Study · Enterprise Operations</p><h1>Distributed Infrastructure at Scale</h1><p class="lede">Supporting a large, distributed enterprise environment meant solving more than tickets. The real work was creating operational consistency across dozens of locations while protecting uptime, improving escalation quality, and reducing repeat failures.</p></div></section>
+<section class="page-hero"><div class="wrap"><p class="eyebrow">Case Study · Enterprise Infrastructure & Operations</p><h1>Enterprise Infrastructure at Scale</h1><p class="lede">Supporting 2,200+ users across 89 locations required more than keeping systems online. The larger challenge was creating repeatable operations across identity, networking, support, security, deployments, and escalation—while maintaining 99.99% service availability.</p></div></section>
 
 <section class="section"><div class="wrap">
 <div class="case-meta">
-<div><span>Environment</span><strong>Enterprise IT / Distributed Operations</strong></div>
 <div><span>Scale</span><strong>2,200+ users · 89 locations</strong></div>
 <div><span>Availability</span><strong>99.99%</strong></div>
-<div><span>Focus</span><strong>Reliability · Escalation · Standardization</strong></div>
+<div><span>Identity Scope</span><strong>~1,300 Microsoft 365 accounts</strong></div>
+<div><span>Primary Role</span><strong>SME · Escalation · Operations Leadership</strong></div>
 </div>
 </div></section>
 
 <section class="section alt"><div class="wrap split">
-<div><p class="section-label">The Situation</p><h2>Scale magnifies inconsistency.</h2></div>
+<div><p class="section-label">The Challenge</p><h2>Distributed environments fail at the seams.</h2></div>
 <div class="wide-copy">
-<p>In a distributed enterprise environment, small gaps become expensive very quickly. Different locations develop different workarounds, documentation drifts, escalations arrive with inconsistent information, and recurring issues consume time that should be spent on higher-value work.</p>
-<p>The challenge was not simply to keep systems online. It was to support a broad user base across many locations while improving the quality and repeatability of the operating model behind that support.</p>
+<p>When dozens of locations depend on the same technology stack, small inconsistencies compound quickly. Site-specific workarounds, incomplete escalation context, documentation drift, identity changes, deployment variation, and recurring incidents can all create avoidable downtime and support friction.</p>
+<p>The objective was not simply to close tickets faster. It was to make the environment easier to operate: improve reliability, strengthen escalation quality, reduce repeat failures, standardize recurring work, and preserve enough technical context that issues could be resolved consistently across locations.</p>
 </div></div></section>
 
-<section class="section"><div class="wrap"><p class="section-label">What Needed Improvement</p><div class="grid three">
-<article class="card"><h3>Recurring Technical Issues</h3><p>Repeated incidents were consuming support time because root causes, known fixes, and escalation paths were not always captured consistently.</p></article>
-<article class="card"><h3>Escalation Quality</h3><p>Higher-tier troubleshooting slowed down when incoming cases lacked clear context, reproducible symptoms, environmental details, or prior actions.</p></article>
-<article class="card"><h3>Operational Variation</h3><p>Supporting many locations requires standard processes. Without them, avoidable deployment errors, downtime, and rework can compound across the environment.</p></article>
+<section class="section"><div class="wrap"><p class="section-label">My Role</p><h2>Operate at both the system level and the incident level.</h2>
+<div class="grid three">
+<article class="card"><h3>Senior Technical Escalation</h3><p>Served as an SME and escalation resource across Microsoft 365, Active Directory, Entra ID, Navistar DSSO/SimpleID, Procede/Excede, SimpleParts, networking, identity, and distributed-site operations.</p></article>
+<article class="card"><h3>Operational Standardization</h3><p>Improved deployment verification, troubleshooting structure, documentation, and repeatable support practices so outcomes depended less on individual memory or site-specific habits.</p></article>
+<article class="card"><h3>Automation & Reliability</h3><p>Built PowerShell and Python automation for deployment, diagnostics, reporting, and user workflows, reducing repetitive manual work and improving consistency.</p></article>
 </div></div></section>
 
-<section class="section alt"><div class="wrap"><p class="section-label">Approach</p><h2>Reduce ambiguity first. Then reduce repeat work.</h2>
+<section class="section alt"><div class="wrap"><p class="section-label">Technical Environment</p><div class="grid three">
+<article class="card"><h3>Identity & Collaboration</h3><p>Microsoft 365 · Active Directory · Entra ID · Hybrid identity · SSO · MFA · Navistar DSSO / SimpleID</p></article>
+<article class="card"><h3>Infrastructure & Connectivity</h3><p>Windows Server · VMware · Cisco Meraki · Wi-Fi / SD-WAN · VPNs · Firewalls · Distributed-site networking</p></article>
+<article class="card"><h3>Operations & Security</h3><p>PowerShell · Python · Deployment tooling · Monitoring · RCA · Vendor coordination · SPF · DKIM · DMARC · Threat analysis</p></article>
+</div></div></section>
+
+<section class="section"><div class="wrap"><p class="section-label">Approach</p><h2>Reduce ambiguity, remove repeat work, then automate what remains.</h2>
 <div class="grid two">
-<article class="card"><h3>1. Strengthen Root-Cause Analysis</h3><p>I focused on identifying patterns behind repeat incidents rather than treating every ticket as an isolated event. That meant connecting symptoms, environment details, prior fixes, and escalation history to find where the same underlying failure was resurfacing.</p></article>
-<article class="card"><h3>2. Improve Documentation</h3><p>Operational knowledge was turned into reusable documentation, troubleshooting guidance, and clearer escalation paths so resolution quality depended less on who happened to receive the issue.</p></article>
-<article class="card"><h3>3. Standardize Escalation Inputs</h3><p>I pushed for better technical context before escalation: what changed, what failed, what had already been tested, which users or sites were affected, and what evidence existed. Better inputs shortened investigation time and reduced back-and-forth.</p></article>
-<article class="card"><h3>4. Reduce Deployment Risk</h3><p>Process standardization and automation were used where repetitive manual work created unnecessary risk. The goal was not automation for its own sake, but fewer avoidable mistakes and more predictable outcomes.</p></article>
+<article class="card"><h3>1. Improve the quality of escalation data</h3><p>Escalations were more useful when they arrived with reproducible symptoms, affected scope, environmental context, prior actions, recent changes, and evidence. Better inputs reduced investigation churn and shortened the path to root cause.</p></article>
+<article class="card"><h3>2. Treat repeat incidents as system signals</h3><p>Instead of treating each recurrence as a fresh ticket, I connected symptoms, prior fixes, environment details, and failure patterns to expose common causes and opportunities for permanent remediation.</p></article>
+<article class="card"><h3>3. Standardize deployment and verification</h3><p>Repeatable checks and documented handoffs reduced avoidable deployment variation. The goal was predictable outcomes across locations—not simply faster execution.</p></article>
+<article class="card"><h3>4. Automate repetitive operational work</h3><p>PowerShell and Python were used where manual steps created unnecessary effort or inconsistency, including deployment support, diagnostics, reporting, and recurring user workflows.</p></article>
+<article class="card"><h3>5. Strengthen identity and access operations</h3><p>Supported hybrid identity and SSO work involving approximately 1,300 Microsoft 365 accounts, helping bridge Active Directory and Entra ID while maintaining operational continuity.</p></article>
+<article class="card"><h3>6. Improve the defensive baseline</h3><p>Email-domain controls including SPF, DKIM, DMARC, and threat analysis were strengthened as part of a broader effort to reduce phishing risk and improve trust in the messaging environment.</p></article>
 </div></div></section>
 
-<section class="section"><div class="wrap"><p class="section-label">Impact</p><div class="metrics">
-<div><strong>2,200+</strong><span>users supported</span></div>
-<div><strong>89</strong><span>locations</span></div>
+<section class="section alt"><div class="wrap"><p class="section-label">Measured Impact</p><div class="metrics">
 <div><strong>99.99%</strong><span>service availability</span></div>
-<div><strong>~30%</strong><span>improvement in recurring issue resolution</span></div>
+<div><strong>~30%</strong><span>less manual effort through automation</span></div>
+<div><strong>~30%</strong><span>improvement in recurring-issue resolution</span></div>
+<div><strong>~25%</strong><span>reduction in deployment-related errors and downtime</span></div>
 </div>
 <div class="metrics secondary-metrics">
-<div><strong>~25%</strong><span>reduction in deployment-related errors and downtime</span></div>
-<div><strong>~80%</strong><span>reduction in phishing incidents through stronger email security and user protection</span></div>
-<div><strong>1,300</strong><span>accounts involved in Microsoft 365 / hybrid identity work</span></div>
-<div><strong>540+</strong><span>support tickets analyzed for bottlenecks and escalation quality</span></div>
+<div><strong>2,200+</strong><span>users supported</span></div>
+<div><strong>89</strong><span>locations supported</span></div>
+<div><strong>~1,300</strong><span>accounts in hybrid identity / SSO work</span></div>
+<div><strong>~80%</strong><span>reduction in phishing incidents associated with stronger email security controls and protection practices</span></div>
+</div></div></section>
+
+<section class="section"><div class="wrap split">
+<div><p class="section-label">Leadership Judgment</p><h2>Reliability is rarely just a technology problem.</h2></div>
+<div class="wide-copy">
+<p>Large environments often become fragile because ownership is unclear, operational knowledge is fragmented, escalation quality varies, or recurring work depends too heavily on individual memory. Buying another tool does not fix those conditions.</p>
+<p>The durable gains came from making the work easier to understand, repeat, verify, and hand off. That meant treating documentation, escalation structure, automation, and identity operations as parts of the reliability architecture—not administrative afterthoughts.</p>
 </div></div></section>
 
 <section class="section alt"><div class="wrap split">
-<div><p class="section-label">Operating Principle</p><h2>Reliability is usually a process problem before it becomes a tooling problem.</h2></div>
-<div class="wide-copy"><p>The technology matters, but large environments rarely become unreliable because one product is missing. More often, the real weakness is fragmented ownership, incomplete documentation, unclear escalation, or processes that depend too heavily on individual memory.</p><p>The most durable improvements came from making technical work easier to repeat, easier to understand, and easier to hand off.</p></div>
-</div></section>
-
-<section class="section"><div class="wrap split">
 <div><p class="section-label">What I’d Carry Forward</p><h2>Design support as an operating system, not a queue.</h2></div>
 <div class="wide-copy">
-<p>If I were building the environment again from scratch, I would formalize knowledge capture even earlier, create stronger structured data around incidents and escalations, and use automation to identify recurring patterns before they become visible through ticket volume alone.</p>
-<p>That thinking now informs how I approach infrastructure, automation, IoT operations, and AI-assisted support workflows: capture the signal, reduce unnecessary variation, and make the system easier to operate over time.</p>
+<p>Given the opportunity to build the operating model from scratch, I would introduce structured incident data and knowledge capture earlier, connect recurring-problem analysis more directly to automation, and make operational telemetry part of the support workflow rather than a separate reporting exercise.</p>
+<p>That thinking now carries into my work across infrastructure architecture, automation, IoT/edge systems, and AI-assisted operations: capture signal early, reduce unnecessary variation, and build systems that become easier to operate over time.</p>
 </div></div></section>
 
-<section class="section alt"><div class="wrap"><p class="section-label">Related Work</p><div class="grid two">
-<article class="card"><h3>Professional Background</h3><p>See the broader leadership and technical areas behind this work.</p><a class="text-link" href="professional.html">View professional profile →</a></article>
-<article class="card"><h3>Automation Operations Platform</h3><p>See how the same operational thinking is being applied in a current public technical project.</p><a class="text-link" href="https://github.com/bentag1965/automation-operations-platform">View GitHub project →</a></article>
+<section class="section"><div class="wrap"><p class="section-label">Related Work</p><div class="grid two">
+<article class="card"><h3>Professional Background</h3><p>See the broader leadership, infrastructure, identity, automation, and operational experience behind this work.</p><a class="text-link" href="professional.html">View professional profile →</a></article>
+<article class="card"><h3>Automation Operations Platform</h3><p>See how the same reliability and operational-design principles are applied in a current public technical project.</p><a class="text-link" href="https://github.com/bentag1965/automation-operations-platform">View GitHub project →</a></article>
 </div></div></section>
 </main>
-<footer><div class="wrap footer-grid"><span>© 2026 Ben Tartaglia</span><div><a href="case-studies.html">All Case Studies</a><a href="https://github.com/bentag1965">GitHub</a></div></div></footer>
+<footer><div class="wrap footer-grid"><span>© 2026 Ben Tartaglia</span><div><a href="case-studies.html">All Case Studies</a><a href="mailto:ben@bentartaglia.tech">Email</a><a href="https://github.com/bentag1965">GitHub</a></div></div></footer>
 </body></html>
