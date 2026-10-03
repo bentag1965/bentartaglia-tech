@@ -1,0 +1,54 @@
+{
+  "report_date": "2026-10-02",
+  "data_as_of": "2026-10-03T02:30:00Z",
+  "report_type": "baseline",
+  "cohort_count": 1,
+  "generation_attempts": {
+    "succeeded": 48
+  },
+  "stored_responses": 48,
+  "latest_response_at": "2026-09-28T10:25:19.466039Z",
+  "provider_response_counts": {
+    "OpenAI": 8,
+    "Anthropic": 8,
+    "Google": 8,
+    "xAI": 8,
+    "Mistral": 8,
+    "DeepSeek": 8
+  },
+  "observations": {
+    "completed": 8,
+    "pending": 28,
+    "overdue_pending": 0
+  },
+  "evaluation_records": {
+    "completed": 34,
+    "human_review_required": 2
+  },
+  "human_review_records": 0,
+  "next_observation_due_at": "2026-10-04T09:54:55Z",
+  "checkpoint_days": [
+    0,
+    1,
+    7,
+    14,
+    21,
+    30,
+    90,
+    180,
+    365
+  ],
+  "minute_offsets": [
+    0,
+    5,
+    15,
+    30
+  ],
+  "limitations": [
+    "Execution metadata audit; raw outputs not comprehensively adjudicated.",
+    "One prompt; no general provider rankings or established longitudinal drift.",
+    "Two review-required evaluations; zero recorded human reviews.",
+    "Daily model Council execution unverified."
+  ],
+  "source": "Read-only authenticated query of The Glowing Oracle Supabase tgo_lab schema."
+}

@@ -170,3 +170,19 @@ footer{border-top:1px solid var(--line);padding:30px 0;color:var(--muted)}
 .availability{margin-top:20px;color:var(--muted);max-width:760px;font-size:.98rem}
 .focus-strip{padding:34px 0;border-bottom:1px solid var(--line);background:var(--panel)}
 .focus-strip .pill-row{margin:12px 0 0}
+
+
+/* Editorial pages and dated research reports */
+.article-copy{max-width:780px;font-size:1.12rem;line-height:1.85}
+.article-copy>p{margin:0 0 1.5em;color:var(--text)}
+.article-copy h2{font-size:clamp(1.6rem,3vw,2.25rem);letter-spacing:-.025em;margin:1.8em 0 .7em;line-height:1.25}
+.article-copy a:not(.button){color:var(--accent)}
+.article-sources{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);font-size:.95rem;color:var(--muted)}
+.article-sources h2{font-size:1.35rem}
+.report-table{overflow-x:auto;margin:24px 0}
+.report-table table{border-collapse:collapse;width:100%;font-size:1rem}
+.report-table th,.report-table td{text-align:left;padding:14px;border:1px solid var(--line);vertical-align:top}
+.report-table th{background:var(--panel);color:var(--accent)}
+.research-card h3 a{text-decoration:none}
+.research-card h3 a:hover{text-decoration:underline}
+@media(max-width:600px){.article-copy{font-size:1.02rem}.page-hero h1{font-size:clamp(2.2rem,10vw,3.8rem);line-height:1.1}.report-table td,.report-table th{padding:10px}}
