@@ -60,6 +60,12 @@
 </div></div></section>
 
 <section class="section alt"><div class="wrap"><p class="section-label">The Standard</p><h2>Cutting edge does not have to mean careless.</h2><p class="wide-copy">The goal is to pursue emerging capability aggressively while keeping accuracy, safety, security, provenance, governance, and operational resilience visible enough to challenge. AI becomes dependable infrastructure only when we can explain what it is doing, measure whether it works, detect when it changes, and stop it when it should not act.</p></div></section>
+<section class="section"><div class="wrap"><p class="section-label">Evidence to Authority</p><h2>A model output is an input to judgment, not permission to act.</h2><div class="grid two">
+<article class="card"><h3>Preserve provenance</h3><p>Keep the prompt, model identifier, parameters, source references, schema version, output fingerprint, and evaluation rubric with the decision. A changed model or prompt creates a new validation context.</p></article>
+<article class="card"><h3>Separate generation from evaluation</h3><p>A separate evaluator can challenge an output, but agreement between models is not proof of correctness. High-consequence claims still need authoritative evidence and accountable human review.</p></article>
+<article class="card"><h3>Define a safe stop</h3><p>Missing evidence, invalid output, unresolved review, or an unavailable dependency should hold consequential work for review. Retry transport failures within limits; do not retry judgment until a model gives a convenient answer.</p></article>
+<article class="card"><h3>Revalidate the affected use case</h3><p>Model retirement, prompt/schema changes, quality regression, or changed source data should trigger representative tests and an owner decision. Preserve the previous validated configuration and a recovery path.</p></article>
+</div><p><a class="text-link" href="research.html#longitudinal-lab">See the research behind these controls →</a></p></div></section>
 </main>
 <footer><div class="wrap footer-grid"><span>© 2026 Ben Tartaglia</span><div><a href="research.html">Research</a><a href="lab.html">Technology Lab</a><a href="https://github.com/bentag1965">GitHub</a></div></div></footer>
 </body></html>

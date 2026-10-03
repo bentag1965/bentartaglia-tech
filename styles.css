@@ -172,6 +172,17 @@ footer{border-top:1px solid var(--line);padding:30px 0;color:var(--muted)}
 .focus-strip .pill-row{margin:12px 0 0}
 
 
+/* Shared operating philosophy and portfolio progression */
+.practice-path{list-style:none;padding:0;margin:30px 0 0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+.practice-path a{display:block;height:100%;padding:22px 18px;border:1px solid var(--line);border-radius:14px;text-decoration:none;background:var(--panel)}
+.practice-path strong{display:block;color:var(--accent);font-size:1.2rem}
+.practice-path span{display:block;color:var(--muted);font-size:.92rem;margin-top:8px}
+.practice-path a:hover{border-color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+#systems{scroll-margin-top:90px}
+@media(max-width:1000px){.practice-path{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){.practice-path{grid-template-columns:1fr}}
+
 /* Editorial pages and dated research reports */
 .article-copy{max-width:780px;font-size:1.12rem;line-height:1.85}
 .article-copy>p{margin:0 0 1.5em;color:var(--text)}
@@ -186,3 +197,4 @@ footer{border-top:1px solid var(--line);padding:30px 0;color:var(--muted)}
 .research-card h3 a{text-decoration:none}
 .research-card h3 a:hover{text-decoration:underline}
 @media(max-width:600px){.article-copy{font-size:1.02rem}.page-hero h1{font-size:clamp(2.2rem,10vw,3.8rem);line-height:1.1}.report-table td,.report-table th{padding:10px}}
+
