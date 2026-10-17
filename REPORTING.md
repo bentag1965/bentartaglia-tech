@@ -13,3 +13,8 @@ Compare the fresh aggregate snapshot with the latest prior reports JSON. Separat
 Use the GitHub connector to read the current branch and relevant files, create a tree from the current base tree, create a commit, and fast-forward main without force. Preserve unrelated edits and document/PDF paths. Validate links, layout, escaped text, and public-data boundaries before pushing. Check Cloudflare deployment status and public pages afterward. User has authorized publishing the six essays and recurring experiment reports every 30 days.
 
 Schedule anchor: November 1, 2026, morning America/New_York; recurrence FREQ=DAILY;INTERVAL=30. Report cadence is separate from the experiment's sampling checkpoints.
+
+
+## Oracle Table release workflow — October 17, 2026
+
+Oracle Table is separate from the six-provider repeated-question study and the monthly report cadence above. Completed debate packages become WordPress drafts and generate QC emails to Ben. Publish an exact source/version and its proposed social package only after explicit approval; preserve review gaps, source speech and open objections. Episode 7, “The Merit Mirage,” was approved and published October 17: https://theglowingoracle.com/2026/10/17/oracle-table-episode-7/. Its 24-turn source edition retains the turn-6 invalid-evidence flag and unverified claim notices. The next debate is October 18 at 10 a.m. America/New_York. Do not treat release approval as resolution of an automated review flag.
