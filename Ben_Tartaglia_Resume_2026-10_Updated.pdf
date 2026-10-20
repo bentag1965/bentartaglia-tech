@@ -1,0 +1,144 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Length 5613 >>
+stream
+BT /F2 19 Tf 1 0 0 1 50 745.0 Tm (BEN TARTAGLIA) Tj ET
+BT /F2 10.6 Tf 1 0 0 1 50 717.0 Tm (IT OPERATIONS & INFRASTRUCTURE LEADER) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 699.0 Tm (Enterprise Infrastructure | Identity | Automation | Reliability | IoT / Edge | Trusted AI Operations) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 683.0 Tm (Massachusetts | U.S. Remote | ben@bentartaglia.tech | bentartaglia.tech | LinkedIn | GitHub | U.S. Citizen) Tj ET
+BT /F2 10 Tf 1 0 0 1 50 658.0 Tm (PROFESSIONAL SUMMARY) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 640.0 Tm (IT manager and infrastructure/technology-operations leader with formal people and budget responsibility and) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 629.0 Tm (20+ years spanning Microsoft 365, Active Directory and Entra ID, Windows Server, VMware, enterprise) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 618.0 Tm (networking, IAM/SSO, security, automation, and distributed support. Supported 2,200+ users across 89) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 607.0 Tm (locations while sustaining 99.99% availability. Combines people and budget management, multi-site project) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 596.0 Tm (delivery, acquisition integration, hands-on engineering, architecture, escalation leadership, vendor) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 585.0 Tm (coordination, documentation, and process improvement. Current work extends that operating discipline into) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 574.0 Tm (Trusted AI Operations: testing emerging AI capability for measurable accuracy, provenance, risk-based human) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 563.0 Tm (oversight, observability, safe failure, and repeatable production use.) Tj ET
+BT /F2 10 Tf 1 0 0 1 50 538.0 Tm (CORE EXPERTISE) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 520.0 Tm (Enterprise Infrastructure | IT Architecture | Microsoft 365 | Active Directory | Entra ID | Windows Server |) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 509.0 Tm (VMware | Cisco Meraki | IAM / SSO / MFA | PowerShell | Python | REST APIs | Automation | Docker | Terraform) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 498.0 Tm (| Observability | Trusted AI Operations | AI Evaluation / Governance | Incident / Problem Management | RCA |) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 487.0 Tm (Vendor Leadership | Distributed Operations) Tj ET
+BT /F2 10 Tf 1 0 0 1 50 462.0 Tm (SELECTED CAREER IMPACT) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 445.0 Tm (- As IT Manager at Neptune Benson, managed three geographically distributed technicians and a $150,000) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 434.0 Tm (technology budget; coordinated site upgrades, resource scheduling, equipment readiness, and) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 423.0 Tm (vendor/service delivery.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 409.0 Tm (- Supported acquisition integration involving network readdressing and phone-system modernization.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 395.0 Tm (- Supported 2,200+ users across 89 locations while sustaining 99.99% availability in a distributed) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 384.0 Tm (enterprise environment.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 370.0 Tm (- Supported a hybrid identity and SSO transition involving approximately 1,300 Microsoft 365 accounts) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 359.0 Tm (across Active Directory and Entra ID.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 345.0 Tm (- Built PowerShell/Python automation that reduced manual effort by approximately 30% and improved) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 334.0 Tm (deployment and support consistency.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 320.0 Tm (- Standardized deployment verification and root-cause practices, reducing deployment-related errors and) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 309.0 Tm (downtime by approximately 25% and improving recurring-issue resolution by approximately 30%.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 295.0 Tm (- Strengthened email security using SPF, DKIM, DMARC and threat analysis, contributing to an) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 284.0 Tm (approximately 80% reduction in phishing incidents.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 270.0 Tm (- Audited 81 Zendesk fields and approximately 540 support tickets to identify routing gaps, recurring) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 259.0 Tm (failure patterns, workflow friction, and documentation opportunities.) Tj ET
+BT /F2 10 Tf 1 0 0 1 50 235.0 Tm (SELECTED TECHNICAL PORTFOLIO) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 218.0 Tm (- Automation Operations Platform - Runnable TypeScript/PostgreSQL reference platform with queues,) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 207.0 Tm (approvals, retries, dead-letter handling, Prometheus/Grafana, hardened Docker, and AWS Terraform.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 193.0 Tm (- Enterprise Identity Reference Architecture - Entra ID lifecycle, RBAC, privileged access, Conditional) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 182.0 Tm (Access, emergency access, workload identities, audit/incident response, and PowerShell assessment.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 168.0 Tm (- AI Model Longitudinal Lab - Multi-provider evaluation architecture with provenance, repeat sampling,) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 157.0 Tm (prompt/schema versioning, structured-output validation, evaluator separation, accuracy-oriented testing,) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 146.0 Tm (and token/cost accounting.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 132.0 Tm (- IoT / Edge Reference Architecture - Offline-first BLE/RFID/NFC patterns with buffering, deduplication,) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 121.0 Tm (store-and-forward synchronization, and connectivity resilience.) Tj ET
+BT /F2 10 Tf 1 0 0 1 50 97.0 Tm (PROFESSIONAL EXPERIENCE) Tj ET
+BT /F1 7 Tf 1 0 0 1 50 30 Tm (Ben Tartaglia  |  bentartaglia.tech) Tj ET
+BT /F1 7 Tf 1 0 0 1 540 30 Tm (1) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 6014 >>
+stream
+BT /F2 9 Tf 1 0 0 1 50 745.0 Tm (EYRUS | Manager of IoT Apr 2026 - Aug 2026) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 729.0 Tm (- Led IoT infrastructure deployment, testing, lifecycle support, field connectivity, escalation) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 718.0 Tm (handling, documentation, and operational handoff across distributed customer environments.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 704.0 Tm (- Worked across edge devices, gateways, readers/scanners, cellular routers, SIM management, local) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 693.0 Tm (networking, BLE, NFC, UHF RFID, and edge-to-platform data flows.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 679.0 Tm (- Investigated field reliability issues involving power resiliency, offline buffering, normalization,) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 668.0 Tm (deduplication, connectivity, and false-positive reduction.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 654.0 Tm (- Audited 81 Zendesk fields and approximately 540 support tickets to identify recurring issues,) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 643.0 Tm (escalation friction, routing gaps, and knowledge/documentation needs.) Tj ET
+BT /F2 9 Tf 1 0 0 1 50 622.0 Tm (AWAKEN BEYOND LIMITS | Founder & Automation Systems Architect \(Independent Project Work\) 2025 -) Tj ET
+BT /F2 9 Tf 1 0 0 1 50 609.0 Tm (Present) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 593.0 Tm (- Built an integrated operating environment using Supabase, Make.com, REST APIs, webhooks, cloud) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 582.0 Tm (services, and AI-enabled workflows for durable state, approvals, scheduling, analytics, and) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 571.0 Tm (digital-product operations.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 557.0 Tm (- Designed automation and AI-assisted workflows with risk-based human approval gates, evidence tracking,) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 546.0 Tm (provenance/version controls, retries, idempotency, exception handling, safe failure, and recovery.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 532.0 Tm (- Translated business and operational requirements into repeatable workflows and controls, emphasizing) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 521.0 Tm (validated outputs, auditability, documentation, and measurable reliability rather than ungoverned) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 510.0 Tm (automation.) Tj ET
+BT /F2 9 Tf 1 0 0 1 50 489.0 Tm (REYNOLDS & REYNOLDS / PROTON TECHS / ALLEGIANCE TRUCKS | Helpdesk Manager | Collaboration) Tj ET
+BT /F2 9 Tf 1 0 0 1 50 476.0 Tm (Specialist | Navistar Administrator Jul 2021 - Oct 2025) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 460.0 Tm (- Supported enterprise infrastructure, identity, security, service operations, and customer-facing) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 449.0 Tm (technical support for more than 2,200 users across 89 locations while sustaining 99.99% availability.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 435.0 Tm (- Served as SME and senior escalation resource for Microsoft 365, Active Directory, Entra ID, Navistar) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 424.0 Tm (DSSO/SimpleID, Procede/Excede, SimpleParts, networking, identity, and distributed-site operations.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 410.0 Tm (- Supported a hybrid identity and SSO transition involving approximately 1,300 Microsoft 365 accounts.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 396.0 Tm (- Built PowerShell/Python automation for deployments, diagnostics, reporting, and user workflows,) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 385.0 Tm (reducing manual work by approximately 30%.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 371.0 Tm (- Standardized deployment verification and RCA, reducing deployment-related errors/user downtime by) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 360.0 Tm (approximately 25% and improving recurring-issue resolution by approximately 30%.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 346.0 Tm (- Supported firewalls, VPNs, encryption, monitoring, VMware, Windows Server, Cisco Meraki, Wi-Fi/SD-WAN,) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 335.0 Tm (Azure/Microsoft 365 migration activities, vendor coordination, and SOX-aligned technology audit support.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 321.0 Tm (- Strengthened email security with SPF, DKIM, DMARC and threat analysis, contributing to an) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 310.0 Tm (approximately 80% reduction in phishing incidents.) Tj ET
+BT /F2 9 Tf 1 0 0 1 50 289.0 Tm (NEPTUNE BENSON | IT Manager Earlier career) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 273.0 Tm (- Managed three geographically distributed technicians and a $150,000 technology budget covering) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 262.0 Tm (hardware replacements and services.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 248.0 Tm (- Planned and coordinated multi-site infrastructure replacement and upgrade activity, aligning staffing,) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 237.0 Tm (travel, equipment delivery, technical expertise, and work volume with business schedules.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 223.0 Tm (- Supported acquisition/integration initiatives, including network readdressing and transition to a new) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 212.0 Tm (phone system.) Tj ET
+BT /F2 9 Tf 1 0 0 1 50 191.0 Tm (ADDITIONAL EARLIER IT ROLES | Network Engineering / Senior IT Systems Earlier experience) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 175.0 Tm (- Delivered network, systems, infrastructure, user support, security, and vendor coordination across) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 164.0 Tm (education, medical-device, school, and energy environments.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 150.0 Tm (- Supported Windows platforms, virtualization, enterprise networking, security controls,) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 139.0 Tm (troubleshooting, and customer-facing technical operations.) Tj ET
+BT /F2 10 Tf 1 0 0 1 50 115.0 Tm (EDUCATION & CREDENTIALS) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 97.0 Tm (B.A., Financial Management, Cum Laude - Franklin Pierce University | CCNA | CompTIA Security+ Bootcamp) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 86.0 Tm (\(training\) | Windows Server 2019 Administration training) Tj ET
+BT /F1 7 Tf 1 0 0 1 50 30 Tm (Ben Tartaglia  |  bentartaglia.tech) Tj ET
+BT /F1 7 Tf 1 0 0 1 540 30 Tm (2) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000266 00000 n 
+0000005930 00000 n 
+0000006066 00000 n 
+0000012131 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+12267
+%%EOF
