@@ -1,0 +1,82 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Length 5494 >>
+stream
+BT /F2 19 Tf 1 0 0 1 50 745.0 Tm (BEN TARTAGLIA) Tj ET
+BT /F2 10.6 Tf 1 0 0 1 50 717.0 Tm (IT OPERATIONS & INFRASTRUCTURE LEADER) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 699.0 Tm (Enterprise Infrastructure | Identity | Automation | Reliability | IoT / Edge | Trusted AI Operations) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 683.0 Tm (Massachusetts | U.S. Remote | ben@bentartaglia.tech | bentartaglia.tech | LinkedIn | GitHub) Tj ET
+BT /F2 10 Tf 1 0 0 1 50 658.0 Tm (LEADERSHIP & OPERATIONAL PROFILE) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 640.0 Tm (IT management and technology-operations leader with formal people and budget responsibility and 20+ years) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 629.0 Tm (spanning enterprise infrastructure, Microsoft 365 and Entra ID, Active Directory, Windows Server,) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 618.0 Tm (networking, identity and access management, security, automation, IoT/edge systems, and distributed support.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 607.0 Tm (Current work extends that discipline into Trusted AI Operations: measurable accuracy, provenance, risk-based) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 596.0 Tm (human oversight, observability, safe failure, and controlled production adoption.) Tj ET
+BT /F2 10 Tf 1 0 0 1 50 571.0 Tm (SELECTED BUSINESS & TECHNICAL IMPACT) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 554.0 Tm (- People and budget leadership: As Neptune Benson IT Manager, led three geographically distributed) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 543.0 Tm (technicians and managed a $150,000 IT budget for hardware replacements and services.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 529.0 Tm (- Modernization and integration: Coordinated multi-site infrastructure upgrades, including resource) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 518.0 Tm (scheduling, travel, equipment delivery, and technical staffing; supported acquisition integration,) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 507.0 Tm (network readdressing, and phone-system transition.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 493.0 Tm (- Enterprise reliability: Supported 2,200+ users across 89 locations while sustaining 99.99%) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 482.0 Tm (availability in a distributed operating environment.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 468.0 Tm (- Identity modernization: Supported hybrid identity and SSO work involving approximately 1,300 Microsoft) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 457.0 Tm (365 accounts across Active Directory and Entra ID.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 443.0 Tm (- Automation: Built PowerShell/Python and API-driven workflows that reduced manual effort by) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 432.0 Tm (approximately 30% and improved consistency.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 418.0 Tm (- Operational improvement: Standardized deployment verification and root-cause practices, reducing) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 407.0 Tm (deployment-related errors/downtime by approximately 25% and improving recurring-issue resolution by) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 396.0 Tm (approximately 30%.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 382.0 Tm (- Security: Strengthened email security with SPF, DKIM, DMARC and threat analysis, contributing to an) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 371.0 Tm (approximately 80% reduction in phishing incidents.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 357.0 Tm (- Service analytics: Audited 81 Zendesk fields and approximately 540 support tickets to identify routing) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 346.0 Tm (gaps, recurring failure patterns, workflow friction, and documentation opportunities.) Tj ET
+BT /F2 10 Tf 1 0 0 1 50 322.0 Tm (CURRENT TECHNICAL PROOF OF WORK) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 305.0 Tm (- Automation Operations Platform: TypeScript/PostgreSQL reference platform with queues, idempotency,) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 294.0 Tm (approvals, retries, dead-letter handling, Prometheus/Grafana, hardened Docker, GitHub Actions, and AWS) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 283.0 Tm (Terraform.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 269.0 Tm (- Enterprise Identity Reference Architecture: Entra ID lifecycle, RBAC, privileged access, Conditional) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 258.0 Tm (Access, emergency access, workload identities, audit/incident response, and PowerShell assessment) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 247.0 Tm (patterns.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 233.0 Tm (- AI Model Longitudinal Lab: Multi-provider evaluation architecture with provenance, prompt/schema) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 222.0 Tm (versioning, structured-output validation, evaluator separation, and token/cost accounting.) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 208.0 Tm (- IoT / Edge Reference Architecture: Offline-first BLE/RFID/NFC patterns with buffering, deduplication,) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 60 197.0 Tm (store-and-forward synchronization, connectivity resilience, and operational handoff thinking.) Tj ET
+BT /F2 10 Tf 1 0 0 1 50 173.0 Tm (WHERE I ADD THE MOST VALUE) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 155.0 Tm (Complex environments where technology has outgrown the operating model: fragmented ownership, recurring) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 144.0 Tm (incidents, weak documentation, inconsistent deployment practices, integration sprawl, field/edge) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 133.0 Tm (constraints, or automation that needs stronger reliability and governance. I work to make the system more) Tj ET
+BT /F1 8.4 Tf 1 0 0 1 50 122.0 Tm (observable, supportable, repeatable, and easier to hand off.) Tj ET
+BT /F1 7 Tf 1 0 0 1 50 30 Tm (Ben Tartaglia  |  bentartaglia.tech) Tj ET
+BT /F1 7 Tf 1 0 0 1 540 30 Tm (1) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000260 00000 n 
+0000005805 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+5941
+%%EOF
