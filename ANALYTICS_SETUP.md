@@ -30,3 +30,27 @@ Avoid putting recipient names, email addresses, phone numbers, or secrets into c
 6. Verify contact/outbound clicks and exclude your own test traffic from interpretation.
 
 This code intentionally does not create cross-page personal visitor sessions or identify individual recruiters. Events indicate clicks, not guaranteed completed downloads or contact messages. Consider privacy notice and consent requirements when selecting the destination or adding cookies.
+
+## Current implementation status (2026-10-21)
+- GA4 configured through Zaraz, pageviews and `portfolio_document_download` observed in GA4 Realtime by site owner.
+- GA4 `Document Type` event-scoped custom dimension registered with event parameter `kind`.
+- Zaraz consent purpose `Analytics` (ID `mOZs`) assigned to GA4. Decline yielded `mOZs:false`; an accepted-consent event test was confirmed by site owner.
+- Cloudflare Monitoring currently assigned to Analytics per dashboard behavior.
+- Cloudflare Web Analytics **separate** enablement/data reception remains unverified.
+- Campaign attribution and double-count verification still require live QA.
+
+## Campaign links to use
+- Recruiter introduction: https://bentartaglia.tech/?utm_source=recruiter_email&utm_medium=email&utm_campaign=oct_2026_recruiter_intro
+- Recruiter follow-up: https://bentartaglia.tech/?utm_source=recruiter_email&utm_medium=email&utm_campaign=oct_2026_recruiter_followup
+- LinkedIn profile: https://bentartaglia.tech/?utm_source=linkedin&utm_medium=social&utm_campaign=professional_profile
+
+Do not encode recruiter identities in URLs or promise personal-level attribution. The built-in GA4 campaign dimensions should reflect UTM parameters where attributed.
+
+## Final acceptance checklist
+1. With fresh opt-in consent, visit recruiter introduction URL. In GA4 Realtime, verify `portfolio_campaign_landing`. GA4 traffic acquisition reporting may take 24–48 hours.
+2. Click a single résumé PDF download; verify exactly one `portfolio_document_download` event (`kind=resume`). Repeat once for impact sheet (`kind=impact_sheet`).
+3. If GA4 Enhanced Measurement creates `file_download` as well, distinguish Google's automatic event from our custom event instead of summing them. Avoid configuring both as counted conversions.
+4. In Cloudflare dashboard, locate Web Analytics → bentartaglia.tech. If absent, enable it and confirm the dashboard receives fresh pageviews.
+5. Verify opt-out remains respected, including Zaraz event forwarding. Do not treat lack of visible browser `collect` requests as proof against server-side forwarding.
+6. Check that monitoring and analytics tools are consistently assigned to consent purposes as intended.
+
