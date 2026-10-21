@@ -45,6 +45,8 @@ h1{font-size:clamp(2.8rem,7vw,5.8rem);line-height:.98;letter-spacing:-.055em;mar
 h2{font-size:clamp(2rem,4.5vw,3.6rem);line-height:1.05;letter-spacing:-.04em;max-width:900px;margin:.3em 0 1em}
 h3{font-size:1.25rem;margin-top:0}
 .lede{font-size:1.25rem;color:var(--muted);max-width:760px}
+.daily-quote{max-width:760px;margin:24px 0 0;padding:0;border:0;color:var(--accent);font-size:1.1rem;font-style:italic;line-height:1.5}
+.daily-quote p{margin:0}
 .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
 .button{border:1px solid var(--line);padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:700}
 .button.primary{background:var(--text);color:var(--bg)}
