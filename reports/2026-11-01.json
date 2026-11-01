@@ -1,0 +1,324 @@
+{
+  "report_date": "2026-11-01",
+  "data_as_of": "2026-11-01T13:08:43.638396+00:00",
+  "previous_report_date": "2026-10-02",
+  "report_type": "progress",
+  "cohort_count": 4,
+  "generation_attempts": {
+    "timed_out": 1,
+    "succeeded": 289,
+    "failed": 45,
+    "unavailable": 1
+  },
+  "stored_responses": 289,
+  "new_responses_since_baseline": 241,
+  "latest_response_at": "2026-11-01T11:31:00.335665+00:00",
+  "provider_response_counts": {
+    "OpenAI": 56,
+    "Anthropic": 28,
+    "Google": 56,
+    "xAI": 55,
+    "Mistral": 55,
+    "DeepSeek": 39
+  },
+  "provider_model_coverage": [
+    {
+      "n": 28,
+      "latest": "2026-10-19T10:30:37.050764+00:00",
+      "provider": "Anthropic Claude",
+      "api_model_id": "claude-sonnet-5"
+    },
+    {
+      "n": 39,
+      "latest": "2026-11-01T10:31:04.536037+00:00",
+      "provider": "DeepSeek",
+      "api_model_id": "deepseek-v4-pro"
+    },
+    {
+      "n": 56,
+      "latest": "2026-11-01T11:30:15.207423+00:00",
+      "provider": "Google Gemini",
+      "api_model_id": "gemini-3.5-flash"
+    },
+    {
+      "n": 55,
+      "latest": "2026-11-01T11:30:50.91758+00:00",
+      "provider": "Grok",
+      "api_model_id": "grok-4.7"
+    },
+    {
+      "n": 55,
+      "latest": "2026-11-01T11:30:04.649423+00:00",
+      "provider": "Mistral AI",
+      "api_model_id": "mistral-small-2603"
+    },
+    {
+      "n": 56,
+      "latest": "2026-11-01T11:31:00.335665+00:00",
+      "provider": "OpenAI",
+      "api_model_id": "gpt-6-sol"
+    }
+  ],
+  "observations": {
+    "completed": 21,
+    "partial": 35,
+    "pending": 88,
+    "overdue_pending": 0
+  },
+  "expected_samples_in_due_slots": 336,
+  "missing_samples_in_due_slots": 47,
+  "evaluation_records": {
+    "failed": 143,
+    "completed": 382,
+    "human_review_required": 7
+  },
+  "human_review_records": 0,
+  "next_observations": [
+    {
+      "due_at": "2026-11-02T11:00:00+00:00",
+      "status": "pending",
+      "minute_offset": 0,
+      "checkpoint_day": 1
+    },
+    {
+      "due_at": "2026-11-02T11:05:00+00:00",
+      "status": "pending",
+      "minute_offset": 5,
+      "checkpoint_day": 1
+    },
+    {
+      "due_at": "2026-11-02T11:15:00+00:00",
+      "status": "pending",
+      "minute_offset": 15,
+      "checkpoint_day": 1
+    },
+    {
+      "due_at": "2026-11-02T11:30:00+00:00",
+      "status": "pending",
+      "minute_offset": 30,
+      "checkpoint_day": 1
+    }
+  ],
+  "checkpoint_summary": [
+    {
+      "n": 4,
+      "status": "completed",
+      "expected": 24,
+      "completed": 24,
+      "checkpoint_day": 0
+    },
+    {
+      "n": 12,
+      "status": "partial",
+      "expected": 72,
+      "completed": 55,
+      "checkpoint_day": 0
+    },
+    {
+      "n": 5,
+      "status": "completed",
+      "expected": 30,
+      "completed": 30,
+      "checkpoint_day": 1
+    },
+    {
+      "n": 7,
+      "status": "partial",
+      "expected": 42,
+      "completed": 35,
+      "checkpoint_day": 1
+    },
+    {
+      "n": 4,
+      "status": "pending",
+      "expected": 24,
+      "completed": 0,
+      "checkpoint_day": 1
+    },
+    {
+      "n": 8,
+      "status": "partial",
+      "expected": 48,
+      "completed": 37,
+      "checkpoint_day": 7
+    },
+    {
+      "n": 4,
+      "status": "completed",
+      "expected": 24,
+      "completed": 24,
+      "checkpoint_day": 7
+    },
+    {
+      "n": 4,
+      "status": "pending",
+      "expected": 24,
+      "completed": 0,
+      "checkpoint_day": 7
+    },
+    {
+      "n": 8,
+      "status": "pending",
+      "expected": 48,
+      "completed": 0,
+      "checkpoint_day": 14
+    },
+    {
+      "n": 4,
+      "status": "partial",
+      "expected": 24,
+      "completed": 16,
+      "checkpoint_day": 14
+    },
+    {
+      "n": 4,
+      "status": "completed",
+      "expected": 24,
+      "completed": 24,
+      "checkpoint_day": 14
+    },
+    {
+      "n": 4,
+      "status": "completed",
+      "expected": 24,
+      "completed": 24,
+      "checkpoint_day": 21
+    },
+    {
+      "n": 12,
+      "status": "pending",
+      "expected": 72,
+      "completed": 0,
+      "checkpoint_day": 21
+    },
+    {
+      "n": 12,
+      "status": "pending",
+      "expected": 72,
+      "completed": 0,
+      "checkpoint_day": 30
+    },
+    {
+      "n": 4,
+      "status": "partial",
+      "expected": 24,
+      "completed": 20,
+      "checkpoint_day": 30
+    },
+    {
+      "n": 16,
+      "status": "pending",
+      "expected": 96,
+      "completed": 0,
+      "checkpoint_day": 90
+    },
+    {
+      "n": 16,
+      "status": "pending",
+      "expected": 96,
+      "completed": 0,
+      "checkpoint_day": 180
+    },
+    {
+      "n": 16,
+      "status": "pending",
+      "expected": 96,
+      "completed": 0,
+      "checkpoint_day": 365
+    }
+  ],
+  "checkpoint_days": [
+    0,
+    1,
+    7,
+    14,
+    21,
+    30,
+    90,
+    180,
+    365
+  ],
+  "minute_offsets": [
+    0,
+    5,
+    15,
+    30
+  ],
+  "scheduler": {
+    "active": true,
+    "schedule": "every minute",
+    "recent_invocation_statuses": [
+      {
+        "status": "succeeded",
+        "end_time": "2026-11-01T13:08:00.095587+00:00",
+        "start_time": "2026-11-01T13:08:00.084299+00:00"
+      },
+      {
+        "status": "succeeded",
+        "end_time": "2026-11-01T13:07:00.02999+00:00",
+        "start_time": "2026-11-01T13:07:00.023538+00:00"
+      },
+      {
+        "status": "succeeded",
+        "end_time": "2026-11-01T13:06:00.052903+00:00",
+        "start_time": "2026-11-01T13:06:00.043556+00:00"
+      },
+      {
+        "status": "succeeded",
+        "end_time": "2026-11-01T13:05:00.200652+00:00",
+        "start_time": "2026-11-01T13:05:00.15643+00:00"
+      },
+      {
+        "status": "succeeded",
+        "end_time": "2026-11-01T13:04:00.061106+00:00",
+        "start_time": "2026-11-01T13:04:00.048107+00:00"
+      }
+    ]
+  },
+  "changes_since_previous": {
+    "cohorts": 3,
+    "stored_responses": 241,
+    "completed_observation_slots": 13,
+    "partial_observation_slots": 35,
+    "completed_evaluations": 348,
+    "failed_evaluations": 143,
+    "review_required_evaluations": 5,
+    "human_reviews": 0
+  },
+  "prompt_versions": [
+    {
+      "cohort_start": "2026-09-27",
+      "title": "Bridge and Temperature",
+      "version": 2
+    },
+    {
+      "cohort_start": "2026-10-18",
+      "title": "Evidence Before Interpretation",
+      "version": 2
+    },
+    {
+      "cohort_start": "2026-10-25",
+      "title": "Constraint Allocation",
+      "version": 2
+    },
+    {
+      "cohort_start": "2026-11-01",
+      "title": "Calibrated Launch Forecast",
+      "version": 2
+    }
+  ],
+  "rubric_version": 1,
+  "evaluator_model_identifiers": [
+    "gpt-6-astra",
+    "claude-opus-5-5"
+  ],
+  "configuration_comparison_limit": "Baseline snapshot omitted prompt hashes and model/evaluator identifiers; within-period configuration changes cannot be established.",
+  "limitations": [
+    "Execution and coverage metadata audit; raw outputs not comprehensively adjudicated.",
+    "Unequal provider coverage and 47 missing due samples.",
+    "Seven review-required evaluation records; zero human reviews.",
+    "No model rankings, correctness rates, or drift findings established.",
+    "Oracle Table is a separate workflow and excluded from these counts."
+  ],
+  "source": "Read-only authenticated queries of live TGO Lab metadata."
+}
