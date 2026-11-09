@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="An anonymized case study in recurring payments, membership access, event reconciliation, and customer-safe billing automation.">
+  <title>Subscription-to-Membership System | Ben Tartaglia</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="canonical" href="https://bentartaglia.tech/case-study-subscription-membership-reliability.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Ben Tartaglia">
+  <meta property="og:title" content="Building a Reliable Subscription-to-Membership System">
+  <meta property="og:description" content="Connecting recurring payments to member access with careful reconciliation, bounded retries, and customer-impact safeguards.">
+  <meta property="og:url" content="https://bentartaglia.tech/case-study-subscription-membership-reliability.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Building a Reliable Subscription-to-Membership System">
+  <meta name="twitter:description" content="A case study in payment integration, membership access, event reconciliation, and safe failure handling.">
+</head>
+<body>
+<header class="site-header"><div class="wrap nav"><a class="brand" href="index.html">Ben Tartaglia</a><nav aria-label="Primary"><a href="professional.html">Professional</a><a href="case-studies.html">Case Studies</a><a href="lab.html">Technology Lab</a><a href="research.html">Research</a><a href="writing.html">Writing</a><a href="about.html">About</a></nav></div></header>
+<main>
+<section class="page-hero"><div class="wrap"><p class="eyebrow">Case Study · Payments / Membership / Reliability</p><h1>Building a Reliable Subscription-to-Membership System</h1><p class="lede">A creator-led digital membership platform needed more than checkout. Payments had to translate into the right access, billing events needed to reconcile cleanly, and failures needed a safe path through retries and review.</p><div class="actions"><a class="button primary" href="case-studies.html">All Case Studies</a><a class="button" href="case-study-automation-operations-platform.html">Related Automation Work</a></div></div></section>
+<section class="section"><div class="wrap"><div class="case-meta">
+<div><span>Stack</span><strong>Stripe · WordPress · Supabase</strong></div>
+<div><span>Integrations</span><strong>Membership · Email · Workflow automation</strong></div>
+<div><span>Focus</span><strong>Payments · Access · Reconciliation</strong></div>
+<div><span>Reliability</span><strong>Event validation · Idempotency · Bounded retries</strong></div>
+</div></div></section>
+<section class="section alt"><div class="wrap split">
+<div><p class="section-label">The Problem</p><h2>A payment is only the beginning of the workflow.</h2></div>
+<div class="wide-copy"><p>A paid membership spans several systems: checkout and recurring billing, account identity, protected content, event processing, and customer communication. A successful transaction can still leave a gap if its event is delayed, repeated, or recorded differently downstream.</p><p>The goal was to connect those systems while making the state of each handoff visible—and to handle billing problems without allowing an uncertain event to make an irreversible access decision.</p></div>
+</div></section>
+<section class="section"><div class="wrap"><p class="section-label">What I Built</p><h2>Connect the customer path to an operational system.</h2><div class="grid three">
+<article class="card"><h3>Payment to Access</h3><p>Connected recurring payment events to membership records and entitlement synchronization, with reconciliation between the payment processor and the access layer.</p></article>
+<article class="card"><h3>Subscription Self-Service</h3><p>Added a secure billing portal flow so members could reach subscription management through their signed-in account.</p></article>
+<article class="card"><h3>Event Processing</h3><p>Designed bounded queue processing with duplicate handling, trusted event lookups, claim-token checks, retry limits, and a review path for incomplete or contradictory evidence.</p></article>
+</div></div></section>
+<section class="section alt"><div class="wrap split">
+<div><p class="section-label">Safety and Reliability</p><h2>Automate the evidence work. Keep consequential decisions controlled.</h2></div>
+<div class="wide-copy"><p>Billing events were treated as evidence to verify, not commands to execute blindly. The design checks trusted event records, preserves processing state, and distinguishes transient provider errors from evidence that needs human review.</p><p>The negative-billing worker was designed to record assessments without issuing entitlement changes, customer notices, or access-removal instructions. That boundary made it possible to test classification and retry behavior while keeping customer-impact actions behind a separate release and acceptance process.</p></div>
+</div></section>
+<section class="section"><div class="wrap"><p class="section-label">Validation</p><h2>Exercise the failure paths, not only the happy path.</h2><div class="grid three">
+<article class="card"><h3>Adapter Checks</h3><p><strong>304 of 304</strong> local synthetic and mocked checks passed.</p></article>
+<article class="card"><h3>Worker Scenarios</h3><p><strong>13 of 13</strong> combined mocked queue-worker scenarios passed.</p></article>
+<article class="card"><h3>Database Queue</h3><p><strong>58 of 58</strong> queue checks passed in each of two isolated database runs.</p></article>
+</div><p class="wide-copy">These figures describe local, mocked, and isolated validation. They do not represent a completed hosted, end-to-end acceptance of the negative-billing lifecycle.</p></div></section>
+<section class="section alt"><div class="wrap split">
+<div><p class="section-label">Outcome and Status</p><h2>A stronger payment foundation, with honest release boundaries.</h2></div>
+<div class="wide-copy"><p>The core payment path was verified through successful payment, event delivery, reconciliation, and entitlement synchronization. A member-facing billing portal also opened successfully. The work established a clearer operating model for subscription events and a tested foundation for safer failure handling.</p><p>End-to-end acceptance of failed-payment recovery and the resulting membership-access transition remains a separate gate. Production customer notices and automatic paid-access removal remain disabled until that flow is reviewed and accepted.</p></div>
+</div></section>
+<section class="section"><div class="wrap"><p class="section-label">What This Demonstrates</p><div class="grid three">
+<article class="card"><h3>Systems Integration</h3><p>Connecting billing, identity, membership, data, and communication layers into one supportable customer journey.</p></article>
+<article class="card"><h3>Operational Judgment</h3><p>Separating verified facts from incomplete evidence and giving consequential actions an explicit decision boundary.</p></article>
+<article class="card"><h3>Failure-Aware Design</h3><p>Planning for duplicate delivery, retries, provider errors, backlog, recovery, and manual review before the system depends on them.</p></article>
+</div><p class="wide-copy">The project reinforced a principle I use across infrastructure and automation: the system should make its state visible, preserve evidence, and give people a safe way to intervene when the evidence is not clear.</p></div></section>
+</main>
+<footer><div class="wrap footer-grid"><span>© 2026 Ben Tartaglia</span><div><a href="case-studies.html">All Case Studies</a><a href="mailto:ben@bentartaglia.tech">Email</a><a href="https://github.com/bentag1965">GitHub</a></div></div></footer>
+<script src="analytics-events.js" defer></script></body>
+</html>
